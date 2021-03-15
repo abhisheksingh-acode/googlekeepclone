@@ -49,7 +49,7 @@ let addBtn = document.querySelector('.addButton');
          console.log(event);
      })
      
-   document.body.appendChild(cards);
+   document.querySelector(".container").appendChild(cards);
 
  }
  const notes = JSON.parse(localStorage.getItem('note'));
